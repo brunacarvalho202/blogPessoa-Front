@@ -8,13 +8,15 @@ import { LoginComponent } from './login/login.component';
 import { RodapeComponent } from './rodape/rodape.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
     LoginComponent,
     RodapeComponent,
-    CadastroComponent
+    CadastroComponent,
+    
   ],
   imports: [
     BrowserModule,
