@@ -9,6 +9,8 @@ import { RodapeComponent } from './rodape/rodape.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { TemaComponent } from './tema/tema.component';
+import { ServiceComponent } from './service/service.component';
+import { ModelComponent } from './model/model.component';
 
 
 @NgModule({
@@ -20,6 +22,8 @@ import { TemaComponent } from './tema/tema.component';
     CadastroComponent,
     InicioComponent,
     TemaComponent,
+    ServiceComponent,
+    ModelComponent,
     
   ],
   imports: [
